@@ -24,6 +24,7 @@ import LazyLoading from './concepts/LazyLoading';
 import ReactRouter from './concepts/ReactRouter';
 import ErrorBoundaries from './concepts/ErrorBoundaries';
 import ApiFetch from './concepts/ApiFetch';
+import LocalStorage from './concepts/LocalStorage';
 
 const App = () => {
     return (
@@ -58,6 +59,7 @@ const App = () => {
                         <li><a href="#router">react router</a></li>
                         <li><a href="#errorboundary">error boundaries</a></li>
                         <li><a href="#apifetch">api fetch</a></li>
+                        <li><a href="#localstorage">localStorage</a></li>
                     </ol>
                 </>
 
@@ -85,6 +87,7 @@ const App = () => {
                     <a name="router"><ReactRouter /></a>
                     <a name="errorboundary"><ErrorBoundaries /></a>
                     <a name="apifetch"><ApiFetch /></a>
+                    <a name="localstorage"><LocalStorage /></a>
                 </>
 
                 <GoToTopButton />
