@@ -9,6 +9,7 @@ import Events from './concepts/Events'
 import GoToTopButton from './components/GoToTopButton'
 import ConditionalRendering from './concepts/ConditionalRendering'
 import Lists from './concepts/Lists'
+import Forms from './concepts/Forms'
 
 const App = () => {
     return (
@@ -28,6 +29,7 @@ const App = () => {
                         <li><a href="#events">events</a></li>
                         <li><a href="#conditional">conditional</a></li>
                         <li><a href="#lists">lists</a></li>
+                        <li><a href="#forms">forms</a></li>
                     </ol>
                 </>
 
@@ -40,6 +42,7 @@ const App = () => {
                     <a name="events"><Events /></a>
                     <a name="conditional"><ConditionalRendering /></a>
                     <a name="lists"><Lists /></a>
+                    <a name="forms"><Forms /></a>
                 </>
 
                 <GoToTopButton />
