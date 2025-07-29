@@ -18,6 +18,9 @@ import ControlledVsUncontrolled from './concepts/ControlledVsUncontrolled';
 import Composition from './concepts/Composition';
 import PropDrilling from './concepts/PropDrilling';
 import CustomHooks from './concepts/CustomHooks';
+import UseReducer from './concepts/UseReducer';
+import UseCallbackMemo from './concepts/UseCallbackMemo';
+import LazyLoading from './concepts/LazyLoading';
 
 const App = () => {
     return (
@@ -46,6 +49,9 @@ const App = () => {
                         <li><a href="#composition">composition</a></li>
                         <li><a href="#propdrilling">prop drilling</a></li>
                         <li><a href="#customhooks">custom hooks</a></li>
+                        <li><a href="#usereducer">useReducer</a></li>
+                        <li><a href="#usecallbackmemo">useCallback & useMemo</a></li>
+                        <li><a href="#lazyloading">lazy loading</a></li>
                     </ol>
                 </>
 
@@ -67,6 +73,9 @@ const App = () => {
                     <a name="composition"><Composition /></a>
                     <a name="propdrilling"><PropDrilling /></a>
                     <a name="customhooks"><CustomHooks /></a>
+                    <a name="usereducer"><UseReducer /></a>
+                    <a name="usecallbackmemo"><UseCallbackMemo /></a>
+                    <a name="lazyloading"><LazyLoading /></a>
                 </>
 
                 <GoToTopButton />
