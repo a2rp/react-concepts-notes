@@ -25,6 +25,7 @@ import ReactRouter from './concepts/ReactRouter';
 import ErrorBoundaries from './concepts/ErrorBoundaries';
 import ApiFetch from './concepts/ApiFetch';
 import LocalStorage from './concepts/LocalStorage';
+import Deployment from './concepts/Deployment';
 
 const App = () => {
     return (
@@ -60,6 +61,7 @@ const App = () => {
                         <li><a href="#errorboundary">error boundaries</a></li>
                         <li><a href="#apifetch">api fetch</a></li>
                         <li><a href="#localstorage">localStorage</a></li>
+                        <li><a href="#deployment">deployment</a></li>
                     </ol>
                 </>
 
@@ -88,6 +90,7 @@ const App = () => {
                     <a name="errorboundary"><ErrorBoundaries /></a>
                     <a name="apifetch"><ApiFetch /></a>
                     <a name="localstorage"><LocalStorage /></a>
+                    <a name="deployment"><Deployment /></a>
                 </>
 
                 <GoToTopButton />
