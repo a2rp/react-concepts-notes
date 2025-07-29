@@ -19,7 +19,7 @@ const Child = ({ user }) => {
 
 // Parent holding the data
 const PropDrilling = () => {
-    const userName = "AashishR";
+    const userName = "AshishR";
 
     const codeExample = `
 const SubChild = ({ user }) => <p>{user}</p>;
@@ -31,7 +31,7 @@ const Child = ({ user }) => (
 );
 
 const Parent = () => {
-  const userName = "AashishR";
+  const userName = "AshishR";
   return <Child user={userName} />;
 };
 `;

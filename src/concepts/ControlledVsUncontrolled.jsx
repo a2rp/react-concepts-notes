@@ -33,13 +33,13 @@ const uncontrolledRef = useRef(null);
         >
             <h1>🎛️ Controlled vs Uncontrolled Components</h1>
 
-            <p>
+            <div>
                 In React, form inputs can be:
                 <ul>
                     <li><strong>Controlled</strong> – value is managed via <code>useState</code></li>
                     <li><strong>Uncontrolled</strong> – value is accessed via a <code>ref</code></li>
                 </ul>
-            </p>
+            </div>
 
             <h3>⚙️ Controlled Input:</h3>
             <input
@@ -49,7 +49,7 @@ const uncontrolledRef = useRef(null);
                 placeholder="Controlled"
                 style={{ marginRight: "10px", padding: "5px" }}
             />
-            <p>Value: <strong>{controlledValue}</strong></p>
+            <div>Value: <strong>{controlledValue}</strong></div>
 
             <h3>⚙️ Uncontrolled Input:</h3>
             <input

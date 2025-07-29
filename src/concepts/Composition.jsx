@@ -48,7 +48,7 @@ const Card = ({ title, children }) => {
 
             <h3>⚙️ Live Example:</h3>
             <Card title="📘 React Developer">
-                <p>Name: Aashish Ranjan</p>
+                <p>Name: Ashish Ranjan</p>
                 <p>Level: Intermediate</p>
             </Card>
 
