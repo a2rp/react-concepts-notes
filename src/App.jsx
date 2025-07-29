@@ -10,6 +10,7 @@ import GoToTopButton from './components/GoToTopButton'
 import ConditionalRendering from './concepts/ConditionalRendering'
 import Lists from './concepts/Lists'
 import Forms from './concepts/Forms'
+import UseEffect from './concepts/UseEffect';
 
 const App = () => {
     return (
@@ -30,6 +31,7 @@ const App = () => {
                         <li><a href="#conditional">conditional</a></li>
                         <li><a href="#lists">lists</a></li>
                         <li><a href="#forms">forms</a></li>
+                        <li><a href="#useeffect">useEffect</a></li>
                     </ol>
                 </>
 
@@ -43,6 +45,7 @@ const App = () => {
                     <a name="conditional"><ConditionalRendering /></a>
                     <a name="lists"><Lists /></a>
                     <a name="forms"><Forms /></a>
+                    <a name="useeffect"><UseEffect /></a>
                 </>
 
                 <GoToTopButton />
