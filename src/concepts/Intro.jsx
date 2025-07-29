@@ -1,6 +1,6 @@
 const Intro = () => {
     return (
-        <div style={{ marginBottom: "50px" }}>
+        <div style={{ marginBottom: "100px" }}>
             <h1>⚛️ What is React?</h1>
             <p>
                 React is an open-source JavaScript library created by Facebook for building fast, interactive user interfaces. It's component-based and declarative, which makes complex UI easier to manage.
