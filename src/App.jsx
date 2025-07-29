@@ -119,7 +119,17 @@ const Styled = {
             flex-wrap: wrap;
 
             li {
-                margin: 0 30px;
+                margin: 5px 30px;
+
+                a {
+                    color: #aaa;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                        color: #fff;
+                    }
+                }
             }
         }
     `,
