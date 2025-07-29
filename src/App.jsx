@@ -8,6 +8,7 @@ import UseState from './concepts/UseState'
 import Events from './concepts/Events'
 import GoToTopButton from './components/GoToTopButton'
 import ConditionalRendering from './concepts/ConditionalRendering'
+import Lists from './concepts/Lists'
 
 const App = () => {
     return (
@@ -26,7 +27,7 @@ const App = () => {
                         <li><a href="#usestate">usestate</a></li>
                         <li><a href="#events">events</a></li>
                         <li><a href="#conditional">conditional</a></li>
-
+                        <li><a href="#lists">lists</a></li>
                     </ol>
                 </>
 
@@ -38,6 +39,7 @@ const App = () => {
                     <a name="usestate"><UseState /></a>
                     <a name="events"><Events /></a>
                     <a name="conditional"><ConditionalRendering /></a>
+                    <a name="lists"><Lists /></a>
                 </>
 
                 <GoToTopButton />
