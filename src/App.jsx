@@ -15,6 +15,7 @@ import UseRef from './concepts/UseRef';
 import UseContext from './concepts/UseContext';
 import LiftingState from './concepts/LiftingState';
 import ControlledVsUncontrolled from './concepts/ControlledVsUncontrolled';
+import Composition from './concepts/Composition';
 
 const App = () => {
     return (
@@ -40,6 +41,7 @@ const App = () => {
                         <li><a href="#usecontext">useContext</a></li>
                         <li><a href="#liftingstate">lifting state</a></li>
                         <li><a href="#controlled">controlled vs uncontrolled</a></li>
+                        <li><a href="#composition">composition</a></li>
                     </ol>
                 </>
 
@@ -58,6 +60,7 @@ const App = () => {
                     <a name="usecontext"><UseContext /></a>
                     <a name="liftingstate"><LiftingState /></a>
                     <a name="controlled"><ControlledVsUncontrolled /></a>
+                    <a name="composition"><Composition /></a>
                 </>
 
                 <GoToTopButton />
