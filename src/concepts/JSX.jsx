@@ -7,7 +7,13 @@ const JSX = () => {
 
     return (
         <>
-            <div style={{ marginBottom: "100px" }}>
+            <div
+                style={{
+                    marginBottom: "50px",
+                    borderBottom: "1px solid #222",
+                    paddingBottom: "50px"
+                }}
+            >
                 <h1>🔤 JSX in React</h1>
 
                 <p>

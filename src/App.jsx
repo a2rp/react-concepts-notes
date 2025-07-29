@@ -2,6 +2,7 @@ import React from 'react'
 import Intro from './concepts/Intro'
 import styled from 'styled-components'
 import JSX from './concepts/JSX'
+import Components from './concepts/Components'
 
 const App = () => {
     return (
@@ -9,6 +10,7 @@ const App = () => {
             <Styled.Wrapper>
                 <Intro />
                 <JSX />
+                <Components />
             </Styled.Wrapper>
         </>
     )
