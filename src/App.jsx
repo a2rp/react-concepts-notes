@@ -11,6 +11,7 @@ import ConditionalRendering from './concepts/ConditionalRendering'
 import Lists from './concepts/Lists'
 import Forms from './concepts/Forms'
 import UseEffect from './concepts/UseEffect';
+import UseRef from './concepts/UseRef';
 
 const App = () => {
     return (
@@ -32,6 +33,7 @@ const App = () => {
                         <li><a href="#lists">lists</a></li>
                         <li><a href="#forms">forms</a></li>
                         <li><a href="#useeffect">useEffect</a></li>
+                        <li><a href="#useref">useRef</a></li>
                     </ol>
                 </>
 
@@ -46,6 +48,7 @@ const App = () => {
                     <a name="lists"><Lists /></a>
                     <a name="forms"><Forms /></a>
                     <a name="useeffect"><UseEffect /></a>
+                    <a name="useref"><UseRef /></a>
                 </>
 
                 <GoToTopButton />
@@ -71,6 +74,7 @@ const Styled = {
             margin-top: 15px;
             margin-bottom: 50px;
             display: flex;
+            flex-wrap: wrap;
 
             li {
                 margin: 0 30px;
