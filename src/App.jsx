@@ -23,6 +23,7 @@ import UseCallbackMemo from './concepts/UseCallbackMemo';
 import LazyLoading from './concepts/LazyLoading';
 import ReactRouter from './concepts/ReactRouter';
 import ErrorBoundaries from './concepts/ErrorBoundaries';
+import ApiFetch from './concepts/ApiFetch';
 
 const App = () => {
     return (
@@ -56,6 +57,7 @@ const App = () => {
                         <li><a href="#lazyloading">lazy loading</a></li>
                         <li><a href="#router">react router</a></li>
                         <li><a href="#errorboundary">error boundaries</a></li>
+                        <li><a href="#apifetch">api fetch</a></li>
                     </ol>
                 </>
 
@@ -82,6 +84,7 @@ const App = () => {
                     <a name="lazyloading"><LazyLoading /></a>
                     <a name="router"><ReactRouter /></a>
                     <a name="errorboundary"><ErrorBoundaries /></a>
+                    <a name="apifetch"><ApiFetch /></a>
                 </>
 
                 <GoToTopButton />
