@@ -13,6 +13,8 @@ import Forms from './concepts/Forms'
 import UseEffect from './concepts/UseEffect';
 import UseRef from './concepts/UseRef';
 import UseContext from './concepts/UseContext';
+import LiftingState from './concepts/LiftingState';
+import ControlledVsUncontrolled from './concepts/ControlledVsUncontrolled';
 
 const App = () => {
     return (
@@ -36,6 +38,8 @@ const App = () => {
                         <li><a href="#useeffect">useEffect</a></li>
                         <li><a href="#useref">useRef</a></li>
                         <li><a href="#usecontext">useContext</a></li>
+                        <li><a href="#liftingstate">lifting state</a></li>
+                        <li><a href="#controlled">controlled vs uncontrolled</a></li>
                     </ol>
                 </>
 
@@ -52,6 +56,8 @@ const App = () => {
                     <a name="useeffect"><UseEffect /></a>
                     <a name="useref"><UseRef /></a>
                     <a name="usecontext"><UseContext /></a>
+                    <a name="liftingstate"><LiftingState /></a>
+                    <a name="controlled"><ControlledVsUncontrolled /></a>
                 </>
 
                 <GoToTopButton />
