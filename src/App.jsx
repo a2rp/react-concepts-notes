@@ -5,6 +5,7 @@ import JSX from './concepts/JSX'
 import Components from './concepts/Components'
 import Props from './concepts/Props'
 import UseState from './concepts/UseState'
+import Events from './concepts/Events'
 
 const App = () => {
     return (
@@ -15,6 +16,7 @@ const App = () => {
                 <Components />
                 <Props />
                 <UseState />
+                <Events />
             </Styled.Wrapper>
         </>
     )
