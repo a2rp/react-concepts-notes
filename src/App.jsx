@@ -17,6 +17,7 @@ import LiftingState from './concepts/LiftingState';
 import ControlledVsUncontrolled from './concepts/ControlledVsUncontrolled';
 import Composition from './concepts/Composition';
 import PropDrilling from './concepts/PropDrilling';
+import CustomHooks from './concepts/CustomHooks';
 
 const App = () => {
     return (
@@ -44,6 +45,7 @@ const App = () => {
                         <li><a href="#controlled">controlled vs uncontrolled</a></li>
                         <li><a href="#composition">composition</a></li>
                         <li><a href="#propdrilling">prop drilling</a></li>
+                        <li><a href="#customhooks">custom hooks</a></li>
                     </ol>
                 </>
 
@@ -64,6 +66,7 @@ const App = () => {
                     <a name="controlled"><ControlledVsUncontrolled /></a>
                     <a name="composition"><Composition /></a>
                     <a name="propdrilling"><PropDrilling /></a>
+                    <a name="customhooks"><CustomHooks /></a>
                 </>
 
                 <GoToTopButton />
