@@ -16,6 +16,7 @@ import UseContext from './concepts/UseContext';
 import LiftingState from './concepts/LiftingState';
 import ControlledVsUncontrolled from './concepts/ControlledVsUncontrolled';
 import Composition from './concepts/Composition';
+import PropDrilling from './concepts/PropDrilling';
 
 const App = () => {
     return (
@@ -42,6 +43,7 @@ const App = () => {
                         <li><a href="#liftingstate">lifting state</a></li>
                         <li><a href="#controlled">controlled vs uncontrolled</a></li>
                         <li><a href="#composition">composition</a></li>
+                        <li><a href="#propdrilling">prop drilling</a></li>
                     </ol>
                 </>
 
@@ -61,6 +63,7 @@ const App = () => {
                     <a name="liftingstate"><LiftingState /></a>
                     <a name="controlled"><ControlledVsUncontrolled /></a>
                     <a name="composition"><Composition /></a>
+                    <a name="propdrilling"><PropDrilling /></a>
                 </>
 
                 <GoToTopButton />
