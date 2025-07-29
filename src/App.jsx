@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import JSX from './concepts/JSX'
 import Components from './concepts/Components'
 import Props from './concepts/Props'
+import UseState from './concepts/UseState'
 
 const App = () => {
     return (
@@ -13,6 +14,7 @@ const App = () => {
                 <JSX />
                 <Components />
                 <Props />
+                <UseState />
             </Styled.Wrapper>
         </>
     )
