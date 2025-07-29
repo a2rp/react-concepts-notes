@@ -61,6 +61,6 @@ A complete, interactive collection of ReactJS concepts, explained with:
 📂 Folder Structure
 
 -   src/
-    -- concepts/ # All concepts as separate JSX files
-    -- components/ # Reusable components like GoToTopButton
-    -- App.jsx # Main file with links and sections
+    -   concepts/ # All concepts as separate JSX files
+    -   components/ # Reusable components like GoToTopButton
+    -   App.jsx # Main file with links and sections
