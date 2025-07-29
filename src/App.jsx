@@ -12,6 +12,7 @@ import Lists from './concepts/Lists'
 import Forms from './concepts/Forms'
 import UseEffect from './concepts/UseEffect';
 import UseRef from './concepts/UseRef';
+import UseContext from './concepts/UseContext';
 
 const App = () => {
     return (
@@ -34,6 +35,7 @@ const App = () => {
                         <li><a href="#forms">forms</a></li>
                         <li><a href="#useeffect">useEffect</a></li>
                         <li><a href="#useref">useRef</a></li>
+                        <li><a href="#usecontext">useContext</a></li>
                     </ol>
                 </>
 
@@ -49,6 +51,7 @@ const App = () => {
                     <a name="forms"><Forms /></a>
                     <a name="useeffect"><UseEffect /></a>
                     <a name="useref"><UseRef /></a>
+                    <a name="usecontext"><UseContext /></a>
                 </>
 
                 <GoToTopButton />
