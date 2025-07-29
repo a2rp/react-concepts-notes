@@ -3,6 +3,7 @@ import Intro from './concepts/Intro'
 import styled from 'styled-components'
 import JSX from './concepts/JSX'
 import Components from './concepts/Components'
+import Props from './concepts/Props'
 
 const App = () => {
     return (
@@ -11,6 +12,7 @@ const App = () => {
                 <Intro />
                 <JSX />
                 <Components />
+                <Props />
             </Styled.Wrapper>
         </>
     )
