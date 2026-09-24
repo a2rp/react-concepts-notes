@@ -2,7 +2,6 @@ import { useCallback, useMemo, useState } from "react";
 
 // Heavy calculation
 const slowSquare = (num) => {
-    console.log("📉 Expensive calculation...");
     let result = 0;
     for (let i = 0; i < 1e7; i++) {
         result += num * num;

@@ -22,8 +22,7 @@ class ErrorBoundary extends Component {
         return { hasError: true };
     }
 
-    componentDidCatch(error, info) {
-        console.error("Caught by Error Boundary:", error, info);
+    componentDidCatch() {
     }
 
     render() {
@@ -43,8 +42,7 @@ class ErrorBoundary extends React.Component {
     return { hasError: true };
   }
 
-  componentDidCatch(error, info) {
-    console.log("Logged:", error);
+  componentDidCatch() {
   }
 
   render() {

@@ -4,11 +4,9 @@ const UseEffect = () => {
     const [count, setCount] = useState(0);
 
     useEffect(() => {
-        console.log("🛎 Effect ran! Count is", count);
         document.title = `Count: ${count}`;
 
         return () => {
-            console.log("♻️ Cleanup before next effect or unmount");
         };
     }, [count]);
 
@@ -19,11 +17,9 @@ const UseEffect = () => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    console.log("Effect ran! Count is", count);
     document.title = \`Count: \${count}\`;
 
     return () => {
-      console.log("Cleanup before next effect or unmount");
     };
   }, [count]);
 

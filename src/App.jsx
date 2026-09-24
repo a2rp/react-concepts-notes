@@ -1,136 +1,146 @@
-import React from 'react'
-import Intro from './concepts/Intro'
-import styled from 'styled-components'
-import JSX from './concepts/JSX'
-import Components from './concepts/Components'
-import Props from './concepts/Props'
-import UseState from './concepts/UseState'
-import Events from './concepts/Events'
-import GoToTopButton from './components/GoToTopButton'
-import ConditionalRendering from './concepts/ConditionalRendering'
-import Lists from './concepts/Lists'
-import Forms from './concepts/Forms'
-import UseEffect from './concepts/UseEffect';
-import UseRef from './concepts/UseRef';
-import UseContext from './concepts/UseContext';
-import LiftingState from './concepts/LiftingState';
-import ControlledVsUncontrolled from './concepts/ControlledVsUncontrolled';
-import Composition from './concepts/Composition';
-import PropDrilling from './concepts/PropDrilling';
-import CustomHooks from './concepts/CustomHooks';
-import UseReducer from './concepts/UseReducer';
-import UseCallbackMemo from './concepts/UseCallbackMemo';
-import LazyLoading from './concepts/LazyLoading';
-import ReactRouter from './concepts/ReactRouter';
-import ErrorBoundaries from './concepts/ErrorBoundaries';
-import ApiFetch from './concepts/ApiFetch';
-import LocalStorage from './concepts/LocalStorage';
-import Deployment from './concepts/Deployment';
+import { createElement } from "react";
+import styled from "styled-components";
+import Footer from "./components/Footer";
+import GoToTopButton from "./components/GoToTopButton";
+import Header from "./components/Header";
+import Intro from "./concepts/Intro";
+import JSX from "./concepts/JSX";
+import Components from "./concepts/Components";
+import Props from "./concepts/Props";
+import UseState from "./concepts/UseState";
+import Events from "./concepts/Events";
+import ConditionalRendering from "./concepts/ConditionalRendering";
+import Lists from "./concepts/Lists";
+import Forms from "./concepts/Forms";
+import UseEffect from "./concepts/UseEffect";
+import UseRef from "./concepts/UseRef";
+import UseContext from "./concepts/UseContext";
+import LiftingState from "./concepts/LiftingState";
+import ControlledVsUncontrolled from "./concepts/ControlledVsUncontrolled";
+import Composition from "./concepts/Composition";
+import PropDrilling from "./concepts/PropDrilling";
+import CustomHooks from "./concepts/CustomHooks";
+import UseReducer from "./concepts/UseReducer";
+import UseCallbackMemo from "./concepts/UseCallbackMemo";
+import LazyLoading from "./concepts/LazyLoading";
+import ReactRouter from "./concepts/ReactRouter";
+import ErrorBoundaries from "./concepts/ErrorBoundaries";
+import ApiFetch from "./concepts/ApiFetch";
+import LocalStorage from "./concepts/LocalStorage";
+import Deployment from "./concepts/Deployment";
 
-const App = () => {
-    return (
-        <>
-            <Styled.Wrapper>
-                <h1>📘 React Concepts & Tutorials</h1>
-                <p>Master every ReactJS concept — from JSX and components to advanced hooks — with clear notes and interactive examples.</p>
+const sections = [
+    ["intro", "Intro", Intro],
+    ["jsx", "JSX", JSX],
+    ["components", "Components", Components],
+    ["props", "Props", Props],
+    ["usestate", "useState", UseState],
+    ["events", "Events", Events],
+    ["conditional", "Conditional rendering", ConditionalRendering],
+    ["lists", "Lists", Lists],
+    ["forms", "Forms", Forms],
+    ["useeffect", "useEffect", UseEffect],
+    ["useref", "useRef", UseRef],
+    ["usecontext", "useContext", UseContext],
+    ["liftingstate", "Lifting state", LiftingState],
+    ["controlled", "Controlled vs uncontrolled", ControlledVsUncontrolled],
+    ["composition", "Composition", Composition],
+    ["propdrilling", "Prop drilling", PropDrilling],
+    ["customhooks", "Custom hooks", CustomHooks],
+    ["usereducer", "useReducer", UseReducer],
+    ["usecallbackmemo", "useCallback and useMemo", UseCallbackMemo],
+    ["lazyloading", "Lazy loading", LazyLoading],
+    ["router", "React Router", ReactRouter],
+    ["errorboundary", "Error boundaries", ErrorBoundaries],
+    ["apifetch", "API fetch", ApiFetch],
+    ["localstorage", "localStorage", LocalStorage],
+    ["deployment", "Deployment", Deployment],
+];
 
+const App = () => (
+    <>
+        <Header />
+        <Styled.Wrapper>
+            <Styled.Intro>
+                <span>React study guide</span>
+                <h1>React Concepts Notes</h1>
+                <p>Practical notes and interactive examples for learning React from JSX basics to advanced patterns.</p>
+            </Styled.Intro>
 
-                <>
-                    <ol>
-                        <li><a href="#intro">Intro</a></li>
-                        <li><a href="#jsx">JSX</a></li>
-                        <li><a href="#components">Components</a></li>
-                        <li><a href="#props">Props</a></li>
-                        <li><a href="#usestate">usestate</a></li>
-                        <li><a href="#events">events</a></li>
-                        <li><a href="#conditional">conditional</a></li>
-                        <li><a href="#lists">lists</a></li>
-                        <li><a href="#forms">forms</a></li>
-                        <li><a href="#useeffect">useEffect</a></li>
-                        <li><a href="#useref">useRef</a></li>
-                        <li><a href="#usecontext">useContext</a></li>
-                        <li><a href="#liftingstate">lifting state</a></li>
-                        <li><a href="#controlled">controlled vs uncontrolled</a></li>
-                        <li><a href="#composition">composition</a></li>
-                        <li><a href="#propdrilling">prop drilling</a></li>
-                        <li><a href="#customhooks">custom hooks</a></li>
-                        <li><a href="#usereducer">useReducer</a></li>
-                        <li><a href="#usecallbackmemo">useCallback & useMemo</a></li>
-                        <li><a href="#lazyloading">lazy loading</a></li>
-                        <li><a href="#router">react router</a></li>
-                        <li><a href="#errorboundary">error boundaries</a></li>
-                        <li><a href="#apifetch">api fetch</a></li>
-                        <li><a href="#localstorage">localStorage</a></li>
-                        <li><a href="#deployment">deployment</a></li>
-                    </ol>
-                </>
+            <Styled.TopicNav aria-label="Concept navigation">
+                {sections.map(([id, label]) => <a key={id} href={`#${id}`}>{label}</a>)}
+            </Styled.TopicNav>
 
-                <>
-                    <a name="intro"><Intro /></a>
-                    <a name="jsx"><JSX /></a>
-                    <a name="components"><Components /></a>
-                    <a name="props"><Props /></a>
-                    <a name="usestate"><UseState /></a>
-                    <a name="events"><Events /></a>
-                    <a name="conditional"><ConditionalRendering /></a>
-                    <a name="lists"><Lists /></a>
-                    <a name="forms"><Forms /></a>
-                    <a name="useeffect"><UseEffect /></a>
-                    <a name="useref"><UseRef /></a>
-                    <a name="usecontext"><UseContext /></a>
-                    <a name="liftingstate"><LiftingState /></a>
-                    <a name="controlled"><ControlledVsUncontrolled /></a>
-                    <a name="composition"><Composition /></a>
-                    <a name="propdrilling"><PropDrilling /></a>
-                    <a name="customhooks"><CustomHooks /></a>
-                    <a name="usereducer"><UseReducer /></a>
-                    <a name="usecallbackmemo"><UseCallbackMemo /></a>
-                    <a name="lazyloading"><LazyLoading /></a>
-                    <a name="router"><ReactRouter /></a>
-                    <a name="errorboundary"><ErrorBoundaries /></a>
-                    <a name="apifetch"><ApiFetch /></a>
-                    <a name="localstorage"><LocalStorage /></a>
-                    <a name="deployment"><Deployment /></a>
-                </>
+            <Styled.Content>
+                {sections.map(([id, , component]) => (
+                    <section id={id} key={id}>
+                        {createElement(component)}
+                    </section>
+                ))}
+            </Styled.Content>
 
-                <GoToTopButton />
-            </Styled.Wrapper>
-        </>
-    )
-}
+            <GoToTopButton />
+        </Styled.Wrapper>
+        <Footer />
+    </>
+);
 
-export default App
+export default App;
 
 const Styled = {
-    Wrapper: styled.div`
-        /* border: 1px solid #f00; */
-        max-width: 700px;
+    Wrapper: styled.main`
+        max-width: 980px;
         margin: 0 auto;
-        padding: 50px;
-        @media (width<600px) {
-            padding: 15px;
+        padding: 88px 24px 48px;
+    `,
+    Intro: styled.section`
+        padding: 28px;
+        margin-bottom: 18px;
+        border: 1px solid #2a2a2a;
+        border-radius: 16px;
+        background: #111;
+        span {
+            color: #7db8ff;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
         }
-
-        ol {
-            /* list-style: none; */
-            margin-top: 15px;
-            margin-bottom: 50px;
-            display: flex;
-            flex-wrap: wrap;
-
-            li {
-                margin: 5px 30px;
-
-                a {
-                    color: #aaa;
-                    text-decoration: none;
-
-                    &:hover {
-                        text-decoration: underline;
-                        color: #fff;
-                    }
-                }
+        h1 {
+            margin: 8px 0;
+            color: #fff;
+            font-size: clamp(2rem, 6vw, 4rem);
+            line-height: 1;
+        }
+        p {
+            max-width: 680px;
+            color: #aaa;
+        }
+    `,
+    TopicNav: styled.nav`
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 24px;
+        a {
+            padding: 7px 10px;
+            color: #aaa;
+            border: 1px solid #2a2a2a;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 0.82rem;
+            transition: color 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+            &:hover,
+            &:focus-visible {
+                color: #fff;
+                border-color: #7db8ff;
+                box-shadow: 0 0 12px rgba(125, 184, 255, 0.2);
             }
+        }
+    `,
+    Content: styled.div`
+        > section {
+            scroll-margin-top: 78px;
         }
     `,
 };

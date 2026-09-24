@@ -78,7 +78,7 @@ const UseContext = () => {
             <h1>🌐 useContext Hook</h1>
 
             <p>
-                <code>useContext</code> allows you to consume data from a React Context — a global-like store for state across components.
+                <code>useContext</code> allows you to consume data from a React Context - a global-like store for state across components.
             </p>
 
             <h3>🔗 Why use it?</h3>
