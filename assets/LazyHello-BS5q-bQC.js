@@ -1,1 +1,0 @@
-import{j as e}from"./index-TLTJ2cvG.js";const r=()=>e.jsx("div",{style:{border:"1px solid green",padding:"10px"},children:e.jsx("p",{children:"👋 This component was lazy-loaded!"})});export{r as default};
