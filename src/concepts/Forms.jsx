@@ -56,7 +56,7 @@ const Forms = () => {
                 React uses controlled components where input values are linked to state. You handle input changes using <code>onChange</code> and submit forms with <code>onSubmit</code>.
             </p>
 
-            <h3>⚙️ Live Form Example:</h3>
+            <h3> Live Form Example:</h3>
             <form onSubmit={handleSubmit}>
                 <input
                     type="text"
@@ -78,7 +78,7 @@ const Forms = () => {
                 <button type="submit">Submit</button>
             </form>
 
-            <h3>💻 Code:</h3>
+            <h3> Code:</h3>
             <pre>{codeExample}</pre>
         </div>
     );

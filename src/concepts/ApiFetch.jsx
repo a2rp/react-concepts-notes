@@ -38,15 +38,15 @@ useEffect(() => {
                 paddingBottom: "50px"
             }}
         >
-            <h1>🌐 Fetching Data in React</h1>
+            <h1> Fetching Data in React</h1>
 
             <p>
                 React doesn’t come with built-in data fetching. Use JavaScript’s <code>fetch()</code> or a library like <code>axios</code>, typically inside a <code>useEffect</code> hook.
             </p>
 
-            <h3>⚙️ Live Example:</h3>
-            {loading && <p>⏳ Loading...</p>}
-            {error && <p style={{ color: "red" }}>Error: {error}</p>}
+            <h3> Live Example:</h3>
+            {loading && <p> Loading...</p>}
+            {error && <p style={{ color: "#b4b4b4" }}>Error: {error}</p>}
             {post && (
                 <div style={{ background: "#eee", padding: "10px", borderRadius: "8px" }}>
                     <h4>{post.title}</h4>
@@ -54,7 +54,7 @@ useEffect(() => {
                 </div>
             )}
 
-            <h3>💻 Code:</h3>
+            <h3> Code:</h3>
             <pre>{codeExample}</pre>
         </div>
     );

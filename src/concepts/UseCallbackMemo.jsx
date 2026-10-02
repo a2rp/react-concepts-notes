@@ -13,10 +13,10 @@ const UseCallbackMemo = () => {
     const [count, setCount] = useState(0);
     const [inputValue, setInputValue] = useState("");
 
-    // 🧠 useMemo: caches the result
+    //  useMemo: caches the result
     const squared = useMemo(() => slowSquare(count), [count]);
 
-    // 🧠 useCallback: caches the function
+    //  useCallback: caches the function
     const handleInput = useCallback((e) => {
         setInputValue(e.target.value);
     }, []);
@@ -48,7 +48,7 @@ const handleInput = useCallback((e) => {
                 <li><code>useCallback</code> → caches the function itself</li>
             </ul>
 
-            <h3>⚙️ Live Example:</h3>
+            <h3> Live Example:</h3>
 
             <p>Count: <strong>{count}</strong></p>
             <p>Slow Squared Value: <strong>{squared}</strong></p>
@@ -63,7 +63,7 @@ const handleInput = useCallback((e) => {
             />
             <p>Input: {inputValue}</p>
 
-            <h3>💻 Code:</h3>
+            <h3> Code:</h3>
             <pre>{codeExample}</pre>
         </div>
     );

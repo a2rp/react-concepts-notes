@@ -6,7 +6,7 @@ const FunctionalComponent = () => {
 
 class ClassComponent extends Component {
     render() {
-        return <p>📦 Hello from Class Component!</p>;
+        return <p> Hello from Class Component!</p>;
     }
 }
 
@@ -37,7 +37,7 @@ const Components = () => {
 }`}
             </pre>
 
-            <h3>📦 Class Component Example:</h3>
+            <h3> Class Component Example:</h3>
             <pre>
                 {`class Hello extends React.Component {
   render() {
@@ -46,11 +46,11 @@ const Components = () => {
 }`}
             </pre>
 
-            <h3>⚙️ Live Examples:</h3>
+            <h3> Live Examples:</h3>
             <FunctionalComponent />
             <ClassComponent />
 
-            <h3>📚 Which one to use?</h3>
+            <h3> Which one to use?</h3>
             <p>
                 Functional components are now the standard, especially with Hooks like <code>useState</code> and <code>useEffect</code>.
             </p>

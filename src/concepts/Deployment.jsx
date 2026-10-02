@@ -1,6 +1,6 @@
 const Deployment = () => {
     const codeExample = `
-📦 Option 1: GitHub Pages (static hosting)
+ Option 1: GitHub Pages (static hosting)
 - npm install gh-pages --save-dev
 - Add to package.json:
   "homepage": "https://yourusername.github.io/repo"
@@ -10,7 +10,7 @@ const Deployment = () => {
   }
 - Run: npm run deploy
 
-🌐 Option 2: Netlify (drag-and-drop or Git connected)
+ Option 2: Netlify (drag-and-drop or Git connected)
 - Build command: npm run build
 - Publish directory: dist/ or build/
 - Handles routing via _redirects file
@@ -28,7 +28,7 @@ const Deployment = () => {
                 paddingBottom: "50px"
             }}
         >
-            <h1>🚀 Deployment Recap</h1>
+            <h1> Deployment Recap</h1>
 
             <p>
                 React apps are typically deployed using static hosting platforms. These serve the built output of your app (<code>dist/</code> or <code>build/</code> folder).

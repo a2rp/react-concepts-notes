@@ -1,6 +1,6 @@
 const ReactRouter = () => {
     const codeExample = `
-📦 Install React Router:
+ Install React Router:
 npm install react-router-dom
 
 🧭 Basic Setup:
@@ -49,7 +49,7 @@ const Profile = () => {
                 <li><code>useParams</code>: Access route variables like IDs or usernames</li>
             </ul>
 
-            <h3>💻 Example Code:</h3>
+            <h3> Example Code:</h3>
             <pre>{codeExample}</pre>
         </div>
     );

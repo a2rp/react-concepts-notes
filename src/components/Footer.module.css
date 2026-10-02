@@ -39,9 +39,9 @@
 
 .links a:hover,
 .links a:focus-visible {
-    color: #7db8ff;
-    border-color: #7db8ff;
-    box-shadow: 0 0 12px rgba(125, 184, 255, 0.22);
+    color: #b4b4b4;
+    border-color: #b4b4b4;
+    box-shadow: 0 0 12px rgba(180, 180, 180, 0.22);
 }
 
 @media (max-width: 640px) {

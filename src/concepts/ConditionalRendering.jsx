@@ -43,14 +43,14 @@ const ConditionalRendering = () => {
                 <li><strong>logical &&</strong>: <code>{`condition && A`}</code></li>
             </ul>
 
-            <h3>⚙️ Live Example:</h3>
-            <h2>{isLoggedIn ? "✅ Welcome Back!" : "🚪 Please Log In"}</h2>
+            <h3> Live Example:</h3>
+            <h2>{isLoggedIn ? " Welcome Back!" : " Please Log In"}</h2>
             {isLoggedIn && <p>You now have access to your dashboard.</p>}
             <button onClick={toggleLogin}>
                 {isLoggedIn ? "Logout" : "Login"}
             </button>
 
-            <h3>💻 Code:</h3>
+            <h3> Code:</h3>
             <pre>{codeExample}</pre>
         </div>
     );

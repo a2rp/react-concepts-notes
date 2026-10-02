@@ -39,15 +39,15 @@ const Card = ({ title, children }) => {
                 paddingBottom: "50px"
             }}
         >
-            <h1>📦 Component Composition</h1>
+            <h1> Component Composition</h1>
 
             <p>
                 React promotes composition over inheritance. This means you build components that are flexible by accepting
                 <code>children</code> and customizing what's rendered inside.
             </p>
 
-            <h3>⚙️ Live Example:</h3>
-            <Card title="📘 React Developer">
+            <h3> Live Example:</h3>
+            <Card title=" React Developer">
                 <p>Name: Ashish Ranjan</p>
                 <p>Level: Intermediate</p>
             </Card>
@@ -57,7 +57,7 @@ const Card = ({ title, children }) => {
                 <p>RAM: 16GB</p>
             </Card>
 
-            <h3>💻 Code:</h3>
+            <h3> Code:</h3>
             <pre>{codeExample}</pre>
         </div>
     );

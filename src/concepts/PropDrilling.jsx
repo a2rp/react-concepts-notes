@@ -11,7 +11,7 @@ const SubChild = ({ user }) => {
 const Child = ({ user }) => {
     return (
         <div style={{ paddingLeft: "20px", borderLeft: "2px solid #aaa" }}>
-            <p>📦 Child Component</p>
+            <p> Child Component</p>
             <SubChild user={user} />
         </div>
     );
@@ -51,16 +51,16 @@ const Parent = () => {
                 It's common but quickly gets messy in large apps.
             </p>
 
-            <h3>⚙️ Live Example:</h3>
+            <h3> Live Example:</h3>
             <div style={{ paddingLeft: "10px" }}>
                 <p>🧑 Parent Component</p>
                 <Child user={userName} />
             </div>
 
-            <h3>💻 Code:</h3>
+            <h3> Code:</h3>
             <pre>{codeExample}</pre>
 
-            <h3>💡 Real Fix (Later):</h3>
+            <h3> Real Fix (Later):</h3>
             <p>
                 Instead of drilling, use <code>useContext</code> or global state (like Redux or Zustand).
             </p>

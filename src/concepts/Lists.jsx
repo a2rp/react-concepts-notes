@@ -44,7 +44,7 @@ return (
                 <li>Use a unique and stable key (like <code>id</code>)</li>
             </ul>
 
-            <h3>⚙️ Live Example:</h3>
+            <h3> Live Example:</h3>
             <ul>
                 {users.map((user) => (
                     <li key={user.id}>
@@ -53,7 +53,7 @@ return (
                 ))}
             </ul>
 
-            <h3>💻 Code:</h3>
+            <h3> Code:</h3>
             <pre>{codeExample}</pre>
         </div>
     );

@@ -43,7 +43,7 @@ const Events = () => {
                 paddingBottom: "50px"
             }}
         >
-            <h1>🎯 Event Handling in React</h1>
+            <h1> Event Handling in React</h1>
 
             <p>
                 React handles events like clicks, input changes, etc. using camelCase event names like <code>onClick</code>, <code>onChange</code>, etc.
@@ -56,7 +56,7 @@ const Events = () => {
                 <li><code>onSubmit</code> – when a form is submitted</li>
             </ul>
 
-            <h3>⚙️ Live Example:</h3>
+            <h3> Live Example:</h3>
             <input
                 type="text"
                 onChange={handleInputChange}
@@ -66,7 +66,7 @@ const Events = () => {
             <button onClick={handleClick}>Click Me</button>
             <p>Hello, {name}</p>
 
-            <h3>💻 Code:</h3>
+            <h3> Code:</h3>
             <pre>{codeExample}</pre>
         </div>
     );

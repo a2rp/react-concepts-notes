@@ -100,7 +100,7 @@ const Styled = {
         border-radius: 16px;
         background: #111;
         span {
-            color: #7db8ff;
+            color: #b4b4b4;
             font-size: 0.75rem;
             font-weight: 700;
             letter-spacing: 0.12em;
@@ -133,8 +133,8 @@ const Styled = {
             &:hover,
             &:focus-visible {
                 color: #fff;
-                border-color: #7db8ff;
-                box-shadow: 0 0 12px rgba(125, 184, 255, 0.2);
+                border-color: #b4b4b4;
+                box-shadow: 0 0 12px rgba(180, 180, 180, 0.2);
             }
         }
     `,

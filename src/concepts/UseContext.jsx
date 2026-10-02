@@ -75,7 +75,7 @@ const UseContext = () => {
                 paddingBottom: "50px"
             }}
         >
-            <h1>🌐 useContext Hook</h1>
+            <h1> useContext Hook</h1>
 
             <p>
                 <code>useContext</code> allows you to consume data from a React Context - a global-like store for state across components.
@@ -88,12 +88,12 @@ const UseContext = () => {
                 <li>Cleaner architecture for large apps</li>
             </ul>
 
-            <h3>⚙️ Live Example:</h3>
+            <h3> Live Example:</h3>
             <ThemeProvider>
                 <ThemedBox />
             </ThemeProvider>
 
-            <h3>💻 Code:</h3>
+            <h3> Code:</h3>
             <pre>{codeExample}</pre>
         </div>
     );

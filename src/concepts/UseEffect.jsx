@@ -46,16 +46,16 @@ const UseEffect = () => {
                 The <code>useEffect</code> hook lets you run side effects in functional components, like:
             </p>
             <ul>
-                <li>⏳ Fetching data</li>
+                <li> Fetching data</li>
                 <li>🧹 Setting up intervals or subscriptions</li>
-                <li>📦 Interacting with localStorage or document title</li>
+                <li> Interacting with localStorage or document title</li>
             </ul>
 
-            <h3>⚙️ Live Example:</h3>
+            <h3> Live Example:</h3>
             <p>Count: {count}</p>
             <button onClick={() => setCount(count + 1)}>Increment</button>
 
-            <h3>💻 Code:</h3>
+            <h3> Code:</h3>
             <pre>{codeExample}</pre>
         </div>
     );

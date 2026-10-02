@@ -46,11 +46,11 @@ const LiftingState = () => {
                     Sometimes, two sibling components need to share data. In such cases, you “lift” the shared state to their closest common parent and pass data via props.
                 </p>
 
-                <h3>⚙️ Live Example:</h3>
+                <h3> Live Example:</h3>
                 <InputComponent onNameChange={setName} />
                 <DisplayComponent name={name} />
 
-                <h3>💻 Code:</h3>
+                <h3> Code:</h3>
                 <pre>{codeExample}</pre>
             </div >
         </>

@@ -7,12 +7,12 @@ const Intro = () => {
                 paddingBottom: "50px"
             }}
         >
-            <h1>⚛️ What is React?</h1>
+            <h1> What is React?</h1>
             <p>
                 React is an open-source JavaScript library created by Facebook for building fast, interactive user interfaces. It's component-based and declarative, which makes complex UI easier to manage.
             </p>
 
-            <h3>🚀 Key Features:</h3>
+            <h3> Key Features:</h3>
             <ul>
                 <li>Component-Based Architecture</li>
                 <li>Declarative UI</li>
@@ -20,7 +20,7 @@ const Intro = () => {
                 <li>Reusable Logic via Hooks</li>
             </ul>
 
-            <h3>📦 React in Action:</h3>
+            <h3> React in Action:</h3>
             <p>You can build reusable components like this simple greeting:</p>
 
             <pre>
@@ -29,7 +29,7 @@ const Intro = () => {
 }`}
             </pre>
 
-            <h3>📚 Why Learn React?</h3>
+            <h3> Why Learn React?</h3>
             <p>
                 It's the most popular front-end library used by top companies. It helps build SPAs (Single Page Applications)
                 efficiently with great developer experience.

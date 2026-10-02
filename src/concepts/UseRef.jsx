@@ -41,11 +41,11 @@ const UseRef = () => {
             </p>
             <ul>
                 <li>📌 Accessing DOM elements directly</li>
-                <li>🧠 Holding non-stateful values</li>
+                <li> Holding non-stateful values</li>
                 <li>⏱ Avoiding re-renders like state does</li>
             </ul>
 
-            <h3>⚙️ Live Example:</h3>
+            <h3> Live Example:</h3>
             <input
                 ref={inputRef}
                 type="text"
@@ -54,7 +54,7 @@ const UseRef = () => {
             />
             <button onClick={handleFocus}>Focus Input</button>
 
-            <h3>💻 Code:</h3>
+            <h3> Code:</h3>
             <pre>{codeExample}</pre>
         </div>
     );

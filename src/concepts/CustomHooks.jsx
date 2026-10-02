@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-// ✅ Custom Hook
+//  Custom Hook
 const useCounter = (initialValue = 0) => {
     const [count, setCount] = useState(initialValue);
 
@@ -11,13 +11,13 @@ const useCounter = (initialValue = 0) => {
     return { count, increment, decrement, reset };
 };
 
-// ✅ Component using the hook
+//  Component using the hook
 const CounterBox = () => {
     const { count, increment, decrement, reset } = useCounter(5);
 
     return (
         <div style={{ border: "1px solid #aaa", padding: "10px", marginTop: "10px" }}>
-            <p>📦 Count: <strong>{count}</strong></p>
+            <p> Count: <strong>{count}</strong></p>
             <button onClick={increment}>➕</button>{" "}
             <button onClick={decrement}>➖</button>{" "}
             <button onClick={reset}>🔄</button>
@@ -61,10 +61,10 @@ const CustomHooks = () => {
                 <li>🔧 Can encapsulate things like counters, forms, toggles, etc.</li>
             </ul>
 
-            <h3>⚙️ Live Example:</h3>
+            <h3> Live Example:</h3>
             <CounterBox />
 
-            <h3>💻 Code:</h3>
+            <h3> Code:</h3>
             <pre>{codeExample}</pre>
         </div>
     );

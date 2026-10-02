@@ -38,12 +38,12 @@ const LazyComponent = lazy(() => import("./LazyHello"));
             <br /><br />
 
             {show && (
-                <Suspense fallback={<p>⏳ Loading...</p>}>
+                <Suspense fallback={<p> Loading...</p>}>
                     <LazyComponent />
                 </Suspense>
             )}
 
-            <h3>💻 Code:</h3>
+            <h3> Code:</h3>
             <pre>{codeExample}</pre>
         </div>
     );

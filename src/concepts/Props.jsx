@@ -28,12 +28,12 @@ const Props = () => {
                 <li>Immutable – props cannot be changed by the child</li>
             </ul>
 
-            <h3>💡 Example:</h3>
+            <h3> Example:</h3>
             <pre>
                 {`<Message sender="Alice" content="Hello there!" />`}
             </pre>
 
-            <h3>⚙️ Live Example:</h3>
+            <h3> Live Example:</h3>
             <Message sender="Alice" content="Hello there!" />
             <Message sender="Bob" content="Props are awesome!" />
             <Message sender="System" content="Let's go React!" />

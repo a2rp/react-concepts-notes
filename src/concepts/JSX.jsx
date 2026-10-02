@@ -2,7 +2,7 @@ const JSX = () => {
     const name = "React Learner";
 
     const showGreeting = () => {
-        return <p style={{ color: "green" }}>Welcome, {name}!</p>;
+        return <p style={{ color: "#b4b4b4" }}>Welcome, {name}!</p>;
     };
 
     return (
@@ -28,7 +28,7 @@ const JSX = () => {
                     <li>Used by all modern React apps</li>
                 </ul>
 
-                <h3>💡 Example:</h3>
+                <h3> Example:</h3>
                 <pre>
                     {`const element = <h1>Hello JSX!</h1>;`}
                 </pre>
@@ -41,7 +41,7 @@ const JSX = () => {
                     {`React.createElement('h1', null, 'Hello JSX!');`}
                 </pre>
 
-                <h3>⚙️ Live JSX Example:</h3>
+                <h3> Live JSX Example:</h3>
                 <div>{showGreeting()}</div>
             </div>
         </>

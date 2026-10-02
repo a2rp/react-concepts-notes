@@ -41,7 +41,7 @@ const uncontrolledRef = useRef(null);
                 </ul>
             </div>
 
-            <h3>⚙️ Controlled Input:</h3>
+            <h3> Controlled Input:</h3>
             <input
                 type="text"
                 value={controlledValue}
@@ -51,7 +51,7 @@ const uncontrolledRef = useRef(null);
             />
             <div>Value: <strong>{controlledValue}</strong></div>
 
-            <h3>⚙️ Uncontrolled Input:</h3>
+            <h3> Uncontrolled Input:</h3>
             <input
                 type="text"
                 ref={uncontrolledRef}
@@ -60,7 +60,7 @@ const uncontrolledRef = useRef(null);
             />
             <button onClick={handleUncontrolledRead}>Read Value</button>
 
-            <h3>💻 Code:</h3>
+            <h3> Code:</h3>
             <pre>{codeExample}</pre>
         </div>
     );

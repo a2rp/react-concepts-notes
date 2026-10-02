@@ -11,7 +11,7 @@ const Buggy = () => {
     return <button onClick={() => setCrash(true)}>Crash Me 💣</button>;
 };
 
-// ✅ Error Boundary class
+//  Error Boundary class
 class ErrorBoundary extends Component {
     constructor(props) {
         super(props);
@@ -27,7 +27,7 @@ class ErrorBoundary extends Component {
 
     render() {
         if (this.state.hasError) {
-            return <p style={{ color: "red" }}>⚠️ Something went wrong.</p>;
+            return <p style={{ color: "#b4b4b4" }}> Something went wrong.</p>;
         }
 
         return this.props.children;
@@ -78,12 +78,12 @@ const ErrorBoundaries = () => {
                 <li>Use it to catch unexpected UI crashes gracefully</li>
             </ul>
 
-            <h3>⚙️ Live Example:</h3>
+            <h3> Live Example:</h3>
             <ErrorBoundary>
                 <Buggy />
             </ErrorBoundary>
 
-            <h3>💻 Code:</h3>
+            <h3> Code:</h3>
             <pre>{codeExample}</pre>
         </div>
     );
