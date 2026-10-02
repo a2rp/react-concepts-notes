@@ -1,0 +1,1 @@
+import{j as e}from"./index-BogrDoW3.js";const s=()=>e.jsx("div",{style:{border:"1px solid #888",padding:"10px"},children:e.jsx("p",{children:"👋 This component was lazy-loaded!"})});export{s as default};
